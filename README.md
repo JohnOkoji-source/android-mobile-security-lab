@@ -28,29 +28,58 @@ The objective was to create functional Android virtual environments that could l
 ### 1. Android-x86 Setup
 
 Android-x86 was installed within VMware. During the installation process, a partition was created to host the Android virtual environment.
+#### Android-x86 Installation
 
+![Android-x86 installation and partition configuration](screenshots/android-x86-installation.png)
+
+*Android-x86 installation process showing the virtual environment setup and partition configuration.*
 After installation, Android-x86 was successfully deployed and made available for testing.
+#### Android-x86 Deployment
 
+![Android-x86 successfully deployed](screenshots/android-x86-deployed.png)
+
+*Successfully deployed Android-x86 virtual environment in VMware.*
 ### 2. Genymotion Configuration
 
 Genymotion was installed and configured as an additional Android virtualization environment.
 
+#### Genymotion Setup
+
+![Genymotion configuration](screenshots/genymotion-configuration.png)
+
+*Genymotion installation and configuration process used to prepare the Android virtual environment.*
+
 The emulator settings were adjusted during installation, and the Android interface was successfully launched after configuration.
 
+#### Genymotion Android Environment
+
+![Genymotion Android environment](screenshots/genymotion-running.png)
+
+*Successfully configured and running Genymotion Android virtual environment.*
 ### 3. Network Connectivity Testing
 
-Connectivity was tested to confirm that the Android virtual environments were functioning correctly.
+Connectivity testing was performed to verify that both Android virtual environments were properly configured and capable of network communication.
 
-For Genymotion, connectivity testing was performed using Windows PowerShell.
+#### Genymotion Connectivity Test
 
-The Android-x86 environment was also tested using ping commands, confirming successful network communication.
+![Genymotion connectivity test](screenshots/genymotion-connectivity-test.png)
 
+*Network connectivity test performed for the Genymotion environment using Windows PowerShell.*
+
+The successful test confirmed that the Genymotion virtual environment was functioning and accessible.
+
+#### Android-x86 Connectivity Test
+
+![Android-x86 connectivity test](screenshots/android-x86-connectivity-test.png)
+
+*Connectivity testing performed within the Android-x86 environment.*
+
+The successful ping test confirmed that the Android-x86 environment had working network connectivity.
 ### 4. Emulator Comparison
 
 After working with both Genymotion and Android-x86, I compared their usability and performance.
 
 Android-x86 required more effort during the initial installation process, but once configured, it provided a responsive interface and a smooth user experience.
-
 ### 5. Android Manifest Exploration
 
 Android Studio was used to locate the application's Android Manifest file.
